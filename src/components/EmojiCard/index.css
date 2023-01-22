@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+li {
+  list-style: none;
+  padding-left: 0px;
+  margin: 10px;
+}
+.card {
+  background-color: #ffffff33;
+  border-radius: 10px;
+  border-color: #ffffff33;
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+}
+
+.emoji-image {
+  height: 50px;
+}
+@media (min-width: 768px) {
+  .card {
+    background-color: #ffffff33;
+    border-radius: 10px;
+    border-color: #ffffff33;
+    border-width: 2px;
+    border-style: solid;
+    padding: 30px;
+  }
+
+  .emoji-image {
+    height: 65px;
+  }
+}
